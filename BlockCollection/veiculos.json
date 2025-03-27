@@ -1,0 +1,72 @@
+[
+    {
+        "Modelo": "A5",
+        "Marca": "Audi",
+        "AnoFabricacao": 2024,
+        "AnoModelo": 2025,
+        "Fipe": 40412
+    },
+    {
+        "Modelo": "A5",
+        "Marca": "Audi",
+        "AnoFabricacao": 2015,
+        "AnoModelo": 2015,
+        "Fipe": 33133
+    },
+    {
+        "Modelo": "Corolla",
+        "Marca": "Toyota",
+        "AnoFabricacao": 1991,
+        "AnoModelo": 1992,
+        "Fipe": 71150
+    },
+    {
+        "Modelo": "Polo",
+        "Marca": "Volkswagen",
+        "AnoFabricacao": 1990,
+        "AnoModelo": 1990,
+        "Fipe": 64871
+    },
+    {
+        "Modelo": "i30",
+        "Marca": "Hyundai",
+        "AnoFabricacao": 2023,
+        "AnoModelo": 2023,
+        "Fipe": 65065
+    },
+    {
+        "Modelo": "Toro",
+        "Marca": "Fiat",
+        "AnoFabricacao": 2023,
+        "AnoModelo": 2023,
+        "Fipe": 13654
+    },
+    {
+        "Modelo": "Fiorino",
+        "Marca": "Fiat",
+        "AnoFabricacao": 2002,
+        "AnoModelo": 2003,
+        "Fipe": 7272
+    },
+    {
+        "Modelo": "Gol",
+        "Marca": "Volkswagen",
+        "AnoFabricacao": 2019,
+        "AnoModelo": 2019,
+        "Fipe": 36134
+    },
+    {
+        "Modelo": "Kicks",
+        "Marca": "Nissan",
+        "AnoFabricacao": 2007,
+        "AnoModelo": 2007,
+        "Fipe": 18602
+    },
+    {
+        "Modelo": "A4",
+        "Marca": "Audi",
+        "AnoFabricacao": 2007,
+        "AnoModelo": 2008,
+        "Fipe": 22814
+    }
+]
