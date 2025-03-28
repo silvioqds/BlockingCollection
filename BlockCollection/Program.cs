@@ -44,8 +44,6 @@ static async Task Producer(BlockingCollection<Veiculo> bcAutomoveis, List<Veicul
 
 static async Task Consumer(BlockingCollection<Veiculo> bcAutomoveis)
 {
-    Dictionary<string, decimal> fipePorMarca = new Dictionary<string, decimal>();
-
     foreach (var automovel in bcAutomoveis.GetConsumingEnumerable())
     {
         string searchUrlTemplate = $"https://serpapi.com/search?q={Uri.EscapeDataString(automovel.Modelo)}+carro&engine=google&api_key={apiKey}";
@@ -76,9 +74,7 @@ static async Task Consumer(BlockingCollection<Veiculo> bcAutomoveis)
 }
 
 static async Task ConsultarModeloCarroSequencial(List<Veiculo> automoveis)
-{
-    Dictionary<string, decimal> fipePorMarca = new Dictionary<string, decimal>();
-
+{  
     foreach (var automovel in automoveis)
     {
         string searchUrlTemplate = $"https://serpapi.com/search?q={Uri.EscapeDataString(automovel.Modelo)}+carro&engine=google&api_key={apiKey}";
